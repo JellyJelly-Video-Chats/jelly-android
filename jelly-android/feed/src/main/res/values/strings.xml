@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_post">Create Post</string>
+    <string name="like_post">Like</string>
+    <string name="comment_on_post">Comment</string>
+    <string name="error_loading_posts">Error loading posts</string>
+    <string name="retry">Retry</string>
+</resources> 

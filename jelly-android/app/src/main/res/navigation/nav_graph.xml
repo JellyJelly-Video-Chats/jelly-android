@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <!-- Main Flow -->
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.jellyjelly.feed.presentation.feed.FeedFragment"
+        android:label="HomeFragment" />
+
+    <fragment
+        android:id="@+id/navigation_add_friends"
+        android:name="com.jellyjelly.app.AddFriendsFragment"
+        android:label="AddFriendsFragment" />
+
+    <fragment
+        android:id="@+id/navigation_camera"
+        android:name="com.jellyjelly.app.CameraFragment"
+        android:label="CameraFragment" />
+
+    <fragment
+        android:id="@+id/navigation_library"
+        android:name="com.jellyjelly.app.LibraryFragment"
+        android:label="LibraryFragment" />
+
+    <fragment
+        android:id="@+id/navigation_wallet"
+        android:name="com.jellyjelly.app.WalletFragment"
+        android:label="WalletFragment" />
+
+</navigation> 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_add_friends"
+        android:icon="@drawable/ic_person_add"
+        android:title="@string/title_add_friends" />
+
+    <item
+        android:id="@+id/navigation_camera"
+        android:icon="@drawable/ic_videocam"
+        android:title="@string/title_camera" />
+
+    <item
+        android:id="@+id/navigation_library"
+        android:icon="@drawable/ic_library"
+        android:title="@string/title_library" />
+
+    <item
+        android:id="@+id/navigation_wallet"
+        android:icon="@drawable/ic_wallet"
+        android:title="@string/title_wallet" />
+</menu> 
